@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lemoona</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="bx bx-x icon" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                    <li><a href="">PATREON</a></li>
+                </ul>
+            </div>
+            <i class="bx bx-menu icon" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>World's Biggest Problem</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A voluptatibus qui eum et minus reiciendis. Tempora cum pariatur id earum?</p>
+            <a href="" class="btn-1">Visit Us To know More</a>
+        </div>
+    </section>
+<!----- Partners ----->
+    <section class="partners">
+        <div class="text-box-partner">
+            <h1>Our Top Partners!</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda tempora ipsum commodi provident.</p>
+        </div>
+        
+        <div class="partner-list">
+            <div class="logo">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyJoFeaLMwoSgYtgWipMP_qlQHFQbQ1ySnbw&s">
+            </div>
+            <div class="logo">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIMQAuH-m66_YoiYKp_kRMhU0RhWclomp99g&s"/>
+            </div>
+            <div class="logo">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfNoa97HuuyjXwUhosR3wJXC4vSohKQX_jTg&s"/>
+            </div>
+            <div class="logo">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB3G9p0IhSMa2aTwVZXukRfu6JBICOuq8TGQ&s"/>
+            </div>
+            <div class="logo">
+                    <img src="https://brandslogos.com/wp-content/uploads/thumbs/penn-logo-1.png"/>
+            </div>
+            <div class="logo">
+                    <img src="https://images.seeklogo.com/logo-png/29/1/dartmouth-logo-png_seeklogo-299534.png"/>
+            </div>
+            <div class="logo">
+                    <img src="https://brandslogos.com/wp-content/uploads/images/large/cornell-university-logo.png">
+            </div>
+            <div class="logo">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLxU0AQ8r-4zy0NQR4Xp3c2t-CJV9QFki5Iw&s"/>
+            </div>
+        </div>
+    </section>
+
+<!----- Footer ----->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea consequatur rem, adipisci<br> laboriosam soluta iusto voluptas neque distinctio cumque facere architecto quasi<br> at quae odit ipsa facilis error! Repellat rerum optio reiciendis, fuga eius temporibus.</p>
+        <div class="icons">
+            <i class="bx bxl-facebook icon"></i>
+            <i class="bx bxl-twitter icon"></i>
+            <i class="bx bxl-instagram icon"></i>
+            <i class="bx bxl-whatsapp icon"></i>
+            <i class="bx bxl-linkedin icon"></i>
+        </div>
+    </section>
+
+<!------JavaScrip for Toggle Menu------>
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+          function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>
